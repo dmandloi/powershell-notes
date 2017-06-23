@@ -1,1 +1,2 @@
-This file serves as an introduction to your Knowledge Base, it is displayed on the homepage of your website. Use it to provide more context to your visitors.
+These are my notes from reading Learn Windows PowerShell in a month of lunches 3rd Edition. 
+
