@@ -3,6 +3,7 @@ These are my notes from reading Learn Windows PowerShell in a month of lunches 3
 ### Chapter 3
 
 * `Help` combines `Get-Help` and `More`cmdlet.
-* 
+* cmdlets, functions, and workflows are collectively known as commands.
+
 
 
