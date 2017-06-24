@@ -24,8 +24,11 @@ Function        Set-SmbShare                                       2.0.0.0    Sm
 Function        Unblock-SmbShareAccess                             2.0.0.0    SmbShare
 ```
 
-* 
+* If a cmdlet has multiple parameter sets, then it can be run only with parameters from one of the parameter sets. The choice of the parameter set depends on the selection of the parameter that is exclusively included in a parameter set.
 
+* The picture below describes how to read optional, required and named parameters based on the abbreviated syntax![](/assets/cmdlet-params.png)
+
+* All comma separated lists are treated as array of values.
 
 
 
