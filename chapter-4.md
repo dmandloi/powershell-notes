@@ -27,6 +27,7 @@ Alias           gci -> Get-ChildItem
 Alias           ls -> Get-ChildItem
 ```
 
+* `Show-Command` can be used to specify the parameters of a cmdlet using a GUI.
 * In order to skip the parameter parsing by powershell when calling external commands use `--%` after the name of the external command. For example,
 
 ```powershell
