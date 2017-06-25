@@ -1,7 +1,7 @@
 These are my notes from reading Learn Windows PowerShell in a month of lunches 3rd Edition
 
-* [chapter3.md](/chapter3.md "Notes from Chapter 3")
-* [chapter4.md](/chapter4.md "Notes from Chapter 4")
+* [Chapter 3](/chapter-3.md)
+* [Chapter 4](/chapter-4.md)
 
 
 
