@@ -4,6 +4,8 @@
 
 * A PowerShell drive uses a single provider to connect to a data storage. To list all the available PSDrives use `Get-PSDrive.`
 
+* Each PSProvider models a data store using hierachical objects similar to drives, folders and files found in the windows file system.
+
 * The below example shows how to temporarily \(i.e. only within the current PowerShell session\) map a file share at `\\Server\share`  to drive `Z.`
 
 ```powershell
