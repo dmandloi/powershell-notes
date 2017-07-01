@@ -15,7 +15,10 @@ Diff -ReferenceObject (Import-Clixml c:\temp\procs.xml) -DifferenceObject (Get-P
 
 * The following two commands are syntactically the same. However using the `Out-File` approach provides more flexibility since all parameters supported by `Out-File` can be used.
 
-   
+```powershell
+Dir > c:\temp\DirectoryList.txt
+Dir | Out-File c:\temp\DirectoryList.txt
+```
 
 
 
