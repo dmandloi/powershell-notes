@@ -20,6 +20,13 @@ Dir > c:\temp\DirectoryList.txt
 Dir | Out-File c:\temp\DirectoryList.txt
 ```
 
-* 
+* `Out-GridView` sends the output to a UI with a table control and can be useful to see outputs of certain cmdlets such as `Get-Process`
+
+```powershell
+Get-Process | Out-GridView
+```
+
+
+
 
 
