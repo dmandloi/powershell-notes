@@ -26,6 +26,12 @@ Dir | Out-File c:\temp\DirectoryList.txt
 Get-Process | Out-GridView
 ```
 
+* The ConvertTo-\* cmdlets, such as `ConvertTo-Json` , in powershell only converts the output of a cmdlet in a particular format. They do not write the output to a file. `Out-File` can then be used to write the converted format to a file. The below example shows how to get the list of process to a JSON file.
+
+```powershell
+Get-Process | ConvertTo-Json | Out-File C:\temp\procs.json
+```
+
 
 
 
