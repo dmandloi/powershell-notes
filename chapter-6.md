@@ -20,5 +20,6 @@ Dir > c:\temp\DirectoryList.txt
 Dir | Out-File c:\temp\DirectoryList.txt
 ```
 
+* 
 
 
