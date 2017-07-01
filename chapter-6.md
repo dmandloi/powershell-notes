@@ -7,6 +7,15 @@ Get-Process | Export-Csv c:\temp\procs.csv
 Import-Csv c:\temp\procs.csv
 ```
 
-* 
+* Two sets of objects can be compared using the `Compare-Object` \(alias `Diff`\) cmdlet. The below example finds the difference between the processes saved to an xml file and the current set of processes by only comparing their names.
+
+```powershell
+Diff -ReferenceObject (Import-Clixml c:\temp\procs.xml) -DifferenceObject (Get-Process) -Property Name
+```
+
+* The following two commands are syntactically the same. However using the `Out-File` approach provides more flexibility since all parameters supported by `Out-File` can be used.
+
+   
+
 
 
