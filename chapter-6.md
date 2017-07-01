@@ -38,5 +38,7 @@ Get-Process | ConvertTo-Json | Out-File C:\temp\procs.json
 Get-Content -Raw c:\temp\procs.json | ConvertFrom-Json
 ```
 
+* The `Import-Csv` and `Import-Clixml` cmdlets do the double duty of converting the output to a particular format and writing it to a file. On the other hand, `ConvertTo-Csv` and `ConvertTo-Xml`  cmdlets only convert the output to a particular format but do not write the output to a file.
+
 
 
