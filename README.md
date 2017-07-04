@@ -4,6 +4,6 @@ These are my notes from reading the book Learn Windows PowerShell in a month of 
 * [Chapter 4](/chapter-4.md)
 * [Chapter 5](/chapter-5.md)
 * [Chapter 6](/chapter-6.md)
-
+* 
 
 
