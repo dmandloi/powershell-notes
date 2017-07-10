@@ -33,5 +33,25 @@ Denver    Janitor          GregS Custodial
 Syracuse  Network Engineer JeffH IT
 ```
 
+* `ExpandProperty` parameter of `Select-Object` cmdlet can be used to get a list of strings from the property values of the objects. The below example illustrates the difference between `Property` and `ExpandProperty` parameters of the `Select-Object` cmdlet
+
+```powershell
+Get-Process -Name chrome | Select-Object -Property Name | Get-Member
+```
+
+```
+ TypeName: Selected.System.Diagnostics.Process
+```
+
+```powershell
+Get-Process -Name chrome | Select-Object -ExpandProperty Name | Get-Member
+```
+
+```
+TypeName: System.String
+```
+
+
+
 
 
