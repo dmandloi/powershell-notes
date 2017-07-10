@@ -8,6 +8,8 @@
 Get-Process -Name note* | Stop-Process
 ```
 
+* `ByPropertyName` parameter  binding matches one or more properties from the output objects of the first cmdlet to the parameter names of the second cmdlet. This is a simple name match as long as the matching parameter from the second cmdlet accepts pipeline input `ByPropertyName.`
+
 * 
 
 
