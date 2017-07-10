@@ -10,7 +10,7 @@ Get-Process -Name note* | Stop-Process
 
 * `ByPropertyName` parameter  binding matches one or more properties from the output objects of the first cmdlet to the parameter names of the second cmdlet. This is a simple name match as long as the matching parameter from the second cmdlet accepts pipeline input `ByPropertyName.`
 
-* Pipeline can be used to apply a field mapping to the contents of a CSV file. Below example assumes a CSV with the following content and then maps the column names `login` and `dept` as `name` and `department` so that they can be matched to other cmdlet parameters.
+* Pipeline can be used to apply a field mapping to the contents of a CSV file. Below example assumes a CSV with the following content and then maps the column names `login` and `dept` as `name` and `department` so that they can be matched to other cmdlet parameters down the pipeline.
 
 ```csv
 login,dept,city,title
