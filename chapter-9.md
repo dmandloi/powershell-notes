@@ -20,12 +20,18 @@ JeffH,IT,Syracuse,Network Engineer
 ```
 
 ```powershell
-Import-CSV users.csv | Select-Object -Property City,Title
+Import-CSV users.csv | Select-Object -Property city,title
 @{name="name"; expression={$_.login}},
-@{name="dept"; expression={$_.dept}}
+@{name="department"; expression={$_.dept}}
 ```
 
- 
+```
+city      title            name  department
+----      -----            ----  ----------
+Las Vegas CTO              DonJ  IT
+Denver    Janitor          GregS Custodial
+Syracuse  Network Engineer JeffH IT
+```
 
 
 
