@@ -51,5 +51,11 @@ Get-Process -Name chrome | Select-Object -ExpandProperty Name | Get-Member
 TypeName: System.String
 ```
 
+* cmdlets placed inside the parenthesis are executed first. This technique can be used to achieve pipeline parameter binding `ByPropertyName` in some cases. The below example specifies the `ComputerName` parameter by reading the content of a text file containing computer names.
+
+```powershell
+Get-Process -ComputerName (Get-Content .\computers.txt) 
+```
+
 
 
