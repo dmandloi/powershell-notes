@@ -7,6 +7,7 @@ These are my notes from reading the book Learn Windows PowerShell in a month of 
 * [Chapter 7](/chapter-7.md)
 * [Chapter 8](/chapter-8.md)
 * [Chapter 9](/chapter-9.md)
+* [Chapter 10](/chapter-10.md)
 
 
 
